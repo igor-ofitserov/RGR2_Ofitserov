@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: com.ofitserov.beans.MainFrame
+
+Name: com/ofitserov/beans/DataSheetTable.class
+Java-Bean: True
+
+Name: com/ofitserov/beans/DataSheetGraph.class
+Java-Bean: True
