@@ -48,8 +48,8 @@ public class DataSheetTable extends JPanel {
     protected void fireDataSheetChange() {
         DataSheetChangeEvent event = new DataSheetChangeEvent(this);
         for (DataSheetChangeListener listener : listeners) {
-        listener.dataChanged(event);
-    }
+            listener.dataChanged(event);
+        }
     }
 
     // --- Внутрішній клас-модель для нашої таблиці ---
